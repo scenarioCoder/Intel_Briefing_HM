@@ -5,6 +5,9 @@ on:
     - cron: '51 23 * * *'  # UTC 23:51 = 北京 07:51（避开整点高峰）
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   generate:
     runs-on: ubuntu-latest
