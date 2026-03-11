@@ -1,5 +1,5 @@
 {
   "buildCommand": "python3 build_index.py",
-  "publishDirectory": ".",
+  "outputDirectory": ".",
   "framework": null
 }
