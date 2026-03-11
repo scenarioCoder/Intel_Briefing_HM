@@ -105,7 +105,24 @@ python run_revenue_architect.py
 
 报告会保存在 `reports/` 目录下。
 
-### 5. 代理 / VPN 配置（可选）
+### 5. 网页前端部署 (推荐)
+
+本项目现在内置了一个精美的暗色模式阅读器，可以直接在浏览器内阅读 `reports/` 下所有的情报。
+
+1. **本地预览**: 
+   在仓库根目录执行 `python build_index.py`，然后运行 `python -m http.server`，访问 `http://localhost:8000` 即可。
+
+2. **GitHub Pages 自动部署 (最简单)**:
+   - 去 GitHub 仓库的 **Settings** -> **Pages**。
+   - 在 **Source** 下拉菜单中选择 **GitHub Actions**。
+   - 每次推代码到 `main` 分支，或者每天跑完爬虫生成报告后，`.github/workflows/deploy-pages.yml` 会自动把网页和新报告发布到你的 GitHub Pages 域名上。
+
+3. **Vercel 部署**:
+   - 登录 Vercel，导入此 GitHub 仓库。
+   - 设置 **Build Command** 为 `python build_index.py`。
+   - 访问你的 Vercel 域名（你可以自己绑定自定义域名，例如 `intel.yourdomain.com`）。
+
+### 6. 代理 / VPN 配置（可选）
 
 如果你需要通过代理访问外部 API，设置环境变量时请使用 **HTTP 代理地址**（不是 SOCKS）：
 

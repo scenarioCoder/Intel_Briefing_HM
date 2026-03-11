@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intel Briefing - AI 情报站</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Markdown dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dompurify@3.0.6/dist/purify.min.js"></script>
+
+    <!-- Code Highlight -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+
+    <style>
+        :root {
+            /* Color Palette for Dark Mode */
+            --bg-base: #0f1115;
+            --bg-surface: #1a1d24;
+            --bg-elevated: rgba(30, 33, 40, 0.7);
+
+            --text-primary: #e2e8f0;
+            --text-secondary: #94a3b8;
+            --text-muted: #64748b;
+
+            --accent-primary: #6366f1;
+            /* Indigo */
+            --accent-hover: #818cf8;
+            --accent-glow: rgba(99, 102, 241, 0.2);
+
+            /* Structural Variables */
+            --sidebar-width: 320px;
+            --header-height: 64px;
+            --border-color: rgba(255, 255, 255, 0.08);
+            --radius-md: 12px;
+            --radius-lg: 16px;
+
+            /* Typography */
+            --font-sans: 'Inter', 'Noto Sans SC', system-ui, -apple-system, sans-serif;
+            --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Consolas, monospace;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: var(--font-sans);
+            background-color: var(--bg-base);
+            color: var(--text-primary);
+            line-height: 1.6;
+            display: flex;
+            height: 100vh;
+            overflow: hidden;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* --- Sidebar Styles --- */
+        #sidebar {
+            width: var(--sidebar-width);
+            background-color: var(--bg-surface);
+            border-right: 1px solid var(--border-color);
+            display: flex;
+            flex-direction: column;
+            z-index: 10;
+            transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .sidebar-header {
+            height: var(--header-height);
+            min-height: var(--header-height);
+            display: flex;
+            align-items: center;
+            padding: 0 24px;
+            font-weight: 700;
+            font-size: 1.25rem;
+            letter-spacing: -0.025em;
+            border-bottom: 1px solid var(--border-color);
+            background: linear-gradient(180deg, rgba(255, 255, 255, 0.03) 0%, transparent 100%);
+        }
+
+        .sidebar-header span {
+            background: linear-gradient(to right, #818cf8, #c084fc);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .sidebar-content {
+            flex: 1;
+            overflow-y: auto;
+            padding: 20px 16px;
+        }
+
+        /* Custom scrollbar for sidebar */
+        .sidebar-content::-webkit-scrollbar {
+            width: 4px;
+        }
+
+        .sidebar-content::-webkit-scrollbar-thumb {
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 4px;
+        }
+
+        .category {
+            margin-bottom: 24px;
+        }
+
+        .category-title {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--text-secondary);
+            font-weight: 600;
+            margin-bottom: 12px;
+            padding: 0 8px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .file-list {
+            list-style: none;
+        }
+
+        .file-item {
+            margin-bottom: 4px;
+        }
+
+        .file-link {
+            display: block;
+            padding: 10px 12px;
+            border-radius: var(--radius-md);
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: all 0.2s ease;
+            cursor: pointer;
+            border: 1px solid transparent;
+        }
+
+        .file-link:hover {
+            background-color: rgba(255, 255, 255, 0.04);
+            color: var(--text-primary);
+        }
+
+        .file-link.active {
+            background-color: var(--accent-glow);
+            color: var(--accent-hover);
+            border-color: rgba(99, 102, 241, 0.3);
+            font-weight: 500;
+        }
+
+        .file-date {
+            font-size: 0.7rem;
+            color: var(--text-muted);
+            margin-top: 2px;
+        }
+
+        .sidebar-footer {
+            padding: 16px 24px;
+            border-top: 1px solid var(--border-color);
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.1);
+        }
+
+        /* --- Main Content area --- */
+        #main-wrapper {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            background: radial-gradient(circle at top right, rgba(99, 102, 241, 0.05), transparent 400px);
+        }
+
+        .mobile-header {
+            display: none;
+            height: var(--header-height);
+            align-items: center;
+            padding: 0 20px;
+            border-bottom: 1px solid var(--border-color);
+            background-color: rgba(26, 29, 36, 0.8);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            position: sticky;
+            top: 0;
+            z-index: 20;
+        }
+
+        .menu-btn {
+            background: none;
+            border: none;
+            color: var(--text-primary);
+            font-size: 1.5rem;
+            cursor: pointer;
+            padding: 8px;
+            margin-right: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #content-area {
+            flex: 1;
+            overflow-y: auto;
+            padding: 40px 60px 80px;
+            scroll-behavior: smooth;
+        }
+
+        .content-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* --- States --- */
+        .loading-state,
+        .empty-state,
+        .error-state {
+            display: none;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 100%;
+            color: var(--text-muted);
+            text-align: center;
+        }
+
+        .loading-state.active,
+        .empty-state.active,
+        .error-state.active {
+            display: flex;
+        }
+
+        .spinner {
+            width: 40px;
+            height: 40px;
+            border: 3px solid rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            border-top-color: var(--accent-primary);
+            animation: spin 1s ease-in-out infinite;
+            margin-bottom: 16px;
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        /* --- Markdown Styling --- */
+        .markdown-body {
+            color: var(--text-primary);
+            font-size: 1.05rem;
+            line-height: 1.7;
+        }
+
+        .markdown-body h1,
+        .markdown-body h2,
+        .markdown-body h3,
+        .markdown-body h4 {
+            color: #fff;
+            margin-top: 2em;
+            margin-bottom: 1em;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+        }
+
+        .markdown-body h1 {
+            font-size: 2.5rem;
+            margin-top: 0;
+            background: linear-gradient(to bottom right, #ffffff, #a5b4fc);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            line-height: 1.2;
+            padding-bottom: 0.5em;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .markdown-body h2 {
+            font-size: 1.75rem;
+            padding-bottom: 0.3em;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            display: flex;
+            align-items: center;
+        }
+
+        .markdown-body h3 {
+            font-size: 1.35rem;
+            color: #e2e8f0;
+        }
+
+        .markdown-body p {
+            margin-bottom: 1.25em;
+        }
+
+        .markdown-body a {
+            color: var(--accent-hover);
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.2s ease;
+        }
+
+        .markdown-body a:hover {
+            border-bottom-color: var(--accent-hover);
+        }
+
+        .markdown-body strong {
+            color: #fff;
+            font-weight: 600;
+        }
+
+        .markdown-body ul,
+        .markdown-body ol {
+            padding-left: 1.5em;
+            margin-bottom: 1.25em;
+        }
+
+        .markdown-body li {
+            margin-bottom: 0.5em;
+        }
+
+        .markdown-body blockquote {
+            border-left: 4px solid var(--accent-primary);
+            padding: 12px 20px;
+            margin: 1.5em 0;
+            background-color: var(--bg-elevated);
+            border-radius: 0 var(--radius-md) var(--radius-md) 0;
+            color: var(--text-secondary);
+        }
+
+        .markdown-body blockquote p:last-child {
+            margin-bottom: 0;
+        }
+
+        .markdown-body code {
+            font-family: var(--font-mono);
+            background-color: rgba(255, 255, 255, 0.08);
+            padding: 0.2em 0.4em;
+            border-radius: 4px;
+            font-size: 0.85em;
+            color: #e2e8f0;
+        }
+
+        .markdown-body pre {
+            background-color: #0d1117;
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            padding: 20px;
+            overflow-x: auto;
+            margin: 1.5em 0;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .markdown-body pre code {
+            background-color: transparent;
+            padding: 0;
+            border-radius: 0;
+            color: inherit;
+            font-size: 0.9em;
+        }
+
+        .markdown-body table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 2em 0;
+            background-color: var(--bg-elevated);
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .markdown-body th,
+        .markdown-body td {
+            padding: 14px 20px;
+            text-align: left;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .markdown-body th {
+            background-color: rgba(255, 255, 255, 0.03);
+            font-weight: 600;
+            color: #fff;
+            white-space: nowrap;
+        }
+
+        .markdown-body tr:last-child td {
+            border-bottom: none;
+        }
+
+        .markdown-body img {
+            max-width: 100%;
+            border-radius: var(--radius-lg);
+            margin: 1.5em 0;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+            border: 1px solid var(--border-color);
+        }
+
+        .markdown-body hr {
+            height: 1px;
+            background: linear-gradient(to right, transparent, var(--border-color), transparent);
+            border: none;
+            margin: 3em 0;
+        }
+
+        /* --- Alert/Admonition Callouts styling --- */
+        .markdown-body .callout {
+            padding: 16px 20px;
+            border-radius: var(--radius-md);
+            margin: 1.5em 0;
+            display: flex;
+            gap: 12px;
+            background-color: var(--bg-elevated);
+            border: 1px solid var(--border-color);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            body {
+                flex-direction: column;
+            }
+
+            #sidebar {
+                position: fixed;
+                top: 0;
+                left: 0;
+                height: 100vh;
+                transform: translateX(-100%);
+            }
+
+            #sidebar.open {
+                transform: translateX(0);
+                box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+            }
+
+            .mobile-header {
+                display: flex;
+            }
+
+            #content-area {
+                padding: 24px 20px 60px;
+            }
+
+            .markdown-body h1 {
+                font-size: 2rem;
+            }
+
+            .markdown-body h2 {
+                font-size: 1.5rem;
+            }
+
+            #mobile-overlay {
+                display: none;
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background: rgba(0, 0, 0, 0.6);
+                backdrop-filter: blur(4px);
+                z-index: 5;
+                opacity: 0;
+                transition: opacity 0.3s ease;
+            }
+
+            #mobile-overlay.active {
+                display: block;
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Overlay for mobile sidebar -->
+    <div id="mobile-overlay" onclick="toggleSidebar()"></div>
+
+    <!-- Sidebar Navigation -->
+    <aside id="sidebar">
+        <div class="sidebar-header">
+            <span>🕵️ Intel Briefing</span>
+        </div>
+        <div class="sidebar-content" id="sidebar-nav">
+            <!-- Navigation will be injected here by JS -->
+            <div style="text-align: center; color: var(--text-muted); padding: 20px; opacity: 0.6;">
+                <div class="spinner" style="margin: 0 auto 10px; width: 24px; height: 24px; border-width: 2px;"></div>
+                Loading Reports...
+            </div>
+        </div>
+        <div class="sidebar-footer">
+            <span id="last-updated">Updating index...</span>
+        </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main id="main-wrapper">
+        <div class="mobile-header">
+            <button class="menu-btn" onclick="toggleSidebar()">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </button>
+            <div style="font-weight: 600;">Intel Briefing</div>
+        </div>
+
+        <div id="content-area">
+            <div class="content-container">
+
+                <!-- Loading State -->
+                <div id="state-loading" class="loading-state">
+                    <div class="spinner"></div>
+                    <div>Decrypting intelligence...</div>
+                </div>
+
+                <!-- Empty/Initial State -->
+                <div id="state-empty" class="empty-state active">
+                    <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"
+                        stroke-linecap="round" stroke-linejoin="round" style="margin-bottom: 20px; opacity: 0.5;">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
+                    </svg>
+                    <h2>Welcome to Intel Briefing</h2>
+                    <p style="margin-top: 10px; max-width: 400px; line-height: 1.5;">Select a report from the sidebar to
+                        view the latest AI-aggregated intelligence across the web.</p>
+                </div>
+
+                <!-- Error State -->
+                <div id="state-error" class="error-state">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#ef4444" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round" style="margin-bottom: 16px;">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <line x1="12" y1="8" x2="12" y2="12"></line>
+                        <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                    </svg>
+                    <h3 style="color: #ef4444;">Error Loading Report</h3>
+                    <p id="error-message" style="margin-top: 8px;">Could not fetch the requested file.</p>
+                </div>
+
+                <!-- Markdown Content Render Target -->
+                <div id="markdown-content" class="markdown-body" style="display: none;"></div>
+
+            </div>
+        </div>
+    </main>
+
+    <script>
+        // Configuration
+        const INDEX_URL = 'reports/index.json';
+        const REPORTS_BASE = 'reports/';
+
+        // Configure Marked.js
+        marked.setOptions({
+            gfm: true,
+            breaks: true,
+            highlight: function (code, lang) {
+                const language = hljs.getLanguage(lang) ? lang : 'plaintext';
+                return hljs.highlight(code, { language }).value;
+            }
+        });
+
+        // DOM Elements
+        const sidebarNav = document.getElementById('sidebar-nav');
+        const contentDiv = document.getElementById('markdown-content');
+        const stateLoading = document.getElementById('state-loading');
+        const stateEmpty = document.getElementById('state-empty');
+        const stateError = document.getElementById('state-error');
+        const errorMessage = document.getElementById('error-message');
+        const lastUpdatedSpan = document.getElementById('last-updated');
+        const sidebar = document.getElementById('sidebar');
+        const mobileOverlay = document.getElementById('mobile-overlay');
+
+        // State variables
+        let reportsIndex = null;
+        let currentActivePath = null;
+
+        /**
+         * Initialize application
+         */
+        async function init() {
+            try {
+                // Fetch the index map built by our Python script
+                const response = await fetch(INDEX_URL);
+                if (!response.ok) throw new Error('Index file not found. Ensure reports/index.json exists.');
+
+                reportsIndex = await response.json();
+                renderSidebar();
+
+                // Format the last updated date
+                if (reportsIndex.last_updated) {
+                    const date = new Date(reportsIndex.last_updated);
+                    lastUpdatedSpan.textContent = `Updated: ${date.toLocaleString()}`;
+                }
+
+                // Check URL hash for direct linking
+                const hashPath = window.location.hash.slice(1);
+                if (hashPath) {
+                    loadReport(decodeURIComponent(hashPath));
+                } else {
+                    // Auto-load most recent daily briefing if available
+                    autoLoadLatest();
+                }
+
+            } catch (error) {
+                console.error('Initialization error:', error);
+                sidebarNav.innerHTML = `<div style="padding: 20px; color: #ef4444; font-size: 0.9em; text-align: center;">Failed to load report index. Please run python build_index.py first.</div>`;
+            }
+        }
+
+        /**
+         * Render the sidebar navigation tree
+         */
+        function renderSidebar() {
+            if (!reportsIndex || !reportsIndex.categories || reportsIndex.categories.length === 0) {
+                sidebarNav.innerHTML = '<div style="padding:20px; text-align:center; color: var(--text-muted);">No reports found.</div>';
+                return;
+            }
+
+            let html = '';
+
+            reportsIndex.categories.forEach(category => {
+                html += `
+                    <div class="category">
+                        <div class="category-title">${category.name}</div>
+                        <ul class="file-list">
+                `;
+
+                category.files.forEach(file => {
+                    const dateObj = new Date(file.date);
+                    const dateStr = dateObj.toLocaleDateString(undefined, { month: 'short', day: 'numeric' });
+
+                    html += `
+                        <li class="file-item">
+                            <a class="file-link" data-path="${file.path}" onclick="handleFileClick(event, '${file.path}')">
+                                <div style="display: flex; justify-content: space-between; align-items: baseline;">
+                                    <span style="font-weight: 500; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">${file.title}</span>
+                                    <span class="file-date">${dateStr}</span>
+                                </div>
+                            </a>
+                        </li>
+                    `;
+                });
+
+                html += `
+                        </ul>
+                    </div>
+                `;
+            });
+
+            sidebarNav.innerHTML = html;
+        }
+
+        /**
+         * Auto-load the newest file from the first category if available
+         */
+        function autoLoadLatest() {
+            if (reportsIndex && reportsIndex.categories && reportsIndex.categories.length > 0) {
+                // Try to find daily briefings first, otherwise pick the first category
+                let targetCategory = reportsIndex.categories.find(c => c.id === 'daily_briefings')
+                    || reportsIndex.categories[0];
+
+                if (targetCategory && targetCategory.files && targetCategory.files.length > 0) {
+                    const latestFilePath = targetCategory.files[0].path;
+                    loadReport(latestFilePath);
+                }
+            }
+        }
+
+        /**
+         * Handle clicking a file in the sidebar
+         */
+        function handleFileClick(event, path) {
+            event.preventDefault();
+            loadReport(path);
+
+            // On mobile, close sidebar after making a selection
+            if (window.innerWidth <= 768) {
+                toggleSidebar();
+            }
+        }
+
+        /**
+         * Fetch and render a Markdown report
+         */
+        async function loadReport(path) {
+            if (!path) return;
+
+            // UI Updates
+            currentActivePath = path;
+            window.location.hash = path;
+            updateActiveStateInSidebar();
+            setViewState('loading');
+
+            // Scroll to top
+            document.getElementById('content-area').scrollTop = 0;
+
+            try {
+                const response = await fetch(REPORTS_BASE + path);
+                if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+
+                let markdownContent = await response.text();
+
+                // Hack: Render Markdown
+                const rawHtml = marked.parse(markdownContent);
+
+                // Sanitize HTML (Security best practice)
+                const safeHtml = DOMPurify.sanitize(rawHtml);
+
+                // Inject
+                contentDiv.innerHTML = safeHtml;
+
+                // Finalize UI state
+                setViewState('content');
+
+            } catch (e) {
+                console.error('Failed to load markdown', e);
+                errorMessage.textContent = `Could not load: ${path}`;
+                setViewState('error');
+            }
+        }
+
+        /**
+         * Highlight the active item in the sidebar
+         */
+        function updateActiveStateInSidebar() {
+            // Remove active from all
+            document.querySelectorAll('.file-link').forEach(el => {
+                el.classList.remove('active');
+            });
+
+            // Add to current
+            if (currentActivePath) {
+                const activeEl = document.querySelector(`.file-link[data-path="${currentActivePath}"]`);
+                if (activeEl) {
+                    activeEl.classList.add('active');
+                    // Ensure it's scrolled into view in the sidebar
+                    activeEl.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                }
+            }
+        }
+
+        /**
+         * Manage main content area states
+         */
+        function setViewState(state) {
+            // hide all
+            stateLoading.classList.remove('active');
+            stateEmpty.classList.remove('active');
+            stateError.classList.remove('active');
+            contentDiv.style.display = 'none';
+
+            // show requested
+            switch (state) {
+                case 'loading':
+                    stateLoading.classList.add('active');
+                    break;
+                case 'empty':
+                    stateEmpty.classList.add('active');
+                    break;
+                case 'error':
+                    stateError.classList.add('active');
+                    break;
+                case 'content':
+                    contentDiv.style.display = 'block';
+                    break;
+            }
+        }
+
+        /**
+         * Mobile Sidebar Toggle
+         */
+        function toggleSidebar() {
+            sidebar.classList.toggle('open');
+            mobileOverlay.classList.toggle('active');
+
+            // Prevent scrolling on body when mobile menu is open
+            if (sidebar.classList.contains('open')) {
+                document.body.style.overflow = 'hidden';
+            } else {
+                document.body.style.overflow = '';
+            }
+        }
+
+        // Bootstrap on DOM Load
+        document.addEventListener('DOMContentLoaded', init);
+
+    </script>
+</body>
+
+</html>
