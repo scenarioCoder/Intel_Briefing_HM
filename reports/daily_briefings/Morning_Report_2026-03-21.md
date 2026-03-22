@@ -2,7 +2,7 @@
 
 
 **日期:** 2026-03-21
-**生成时间:** 00:01
+**生成时间:** 23:59
 **数据源:** HN, GitHub, 36Kr, WallStreetCN, V2EX, PH, ArXiv, X, XHS
 
 ---
@@ -10,68 +10,68 @@
 ## 🛠️ 技术趋势 (Tech Trends)
 > Hacker News + GitHub Trending
 
-### 1. [OpenCode – The open source AI coding agent](https://opencode.ai/)
-📍 Hacker News | 🔥 300 points | 🕒 2 hours ago
+### 1. [FujiwaraChoki/MoneyPrinterV2 - Automate the process of making money online.](https://github.com/FujiwaraChoki/MoneyPrinterV2)
+📍 GitHub | 🔥 17,709 stars | 🕒 Today
 
-### 2. [Our commitment to Windows quality](https://blogs.windows.com/windows-insider/2026/03/20/our-commitment-to-windows-quality/)
-📍 Hacker News | 🔥 318 points | 🕒 4 hours ago
+### 2. [systemd/systemd - The systemd System and Service Manager](https://github.com/systemd/systemd)
+📍 GitHub | 🔥 15,720 stars | 🕒 Today
 
-### 3. [Discontinuation and reinitiation of dual-labeled GLP-1 receptor agonists](https://nautil.us/whiplash-heart-attack-and-stroke-risk-jumps-when-people-stop-taking-glp-1s-1279029)
-📍 Hacker News | 🔥 46 points | 🕒 2 hours ago
+### 3. [aquasecurity/trivy - Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more](https://github.com/aquasecurity/trivy)
+📍 GitHub | 🔥 33,366 stars | 🕒 Today
 
-### 4. [We rewrote our Rust WASM Parser in TypeScript – and it got 3x Faster](https://www.openui.com/blog/rust-wasm-parser)
-📍 Hacker News | 🔥 62 points | 🕒 2 hours ago
+### 4. [Crosstalk-Solutions/project-nomad - Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.](https://github.com/Crosstalk-Solutions/project-nomad)
+📍 GitHub | 🔥 6,568 stars | 🕒 Today
 
-### 5. [France's aircraft carrier located in real time by Le Monde through fitness app](https://www.lemonde.fr/en/international/article/2026/03/20/stravaleaks-france-s-aircraft-carrier-located-in-real-time-by-le-monde-through-fitness-app_6751640_4.html)
-📍 Hacker News | 🔥 444 points | 🕒 10 hours ago
+### 5. [opendataloader-project/opendataloader-pdf - PDF Parser for AI-ready data. Automate PDF accessibility. Open-source.](https://github.com/opendataloader-project/opendataloader-pdf)
+📍 GitHub | 🔥 7,858 stars | 🕒 Today
 
-### 6. [Ghostling](https://github.com/ghostty-org/ghostling)
-📍 Hacker News | 🔥 32 points | 🕒 1 hour ago
+### 6. [jarrodwatts/claude-hud - A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress](https://github.com/jarrodwatts/claude-hud)
+📍 GitHub | 🔥 10,408 stars | 🕒 Today
 
-### 7. [Show HN: We built a terminal-only Bluesky / AT Proto client written in Fortran](https://github.com/FormerLab/fortransky)
-📍 Hacker News | 🔥 27 points | 🕒 1 hour ago
+### 7. [protocolbuffers/protobuf - Protocol Buffers - Google's data interchange format](https://github.com/protocolbuffers/protobuf)
+📍 GitHub | 🔥 70,944 stars | 🕒 Today
 
-### 8. [Attention Residuals](https://github.com/MoonshotAI/Attention-Residuals)
-📍 Hacker News | 🔥 106 points | 🕒 5 hours ago
+### 8. [vllm-project/vllm-omni - A framework for efficient model inference with omni-modality models](https://github.com/vllm-project/vllm-omni)
+📍 GitHub | 🔥 3,499 stars | 🕒 Today
 
-### 9. [An FAQ on Reinforcement Learning Environments](https://epoch.ai/gradient-updates/state-of-rl-envs)
-📍 Hacker News | 🔥 10 points | 🕒 1 hour ago
+### 9. [louis-e/arnis - Generate any location from the real world in Minecraft with a high level of detail.](https://github.com/louis-e/arnis)
+📍 GitHub | 🔥 12,203 stars | 🕒 Today
 
-### 10. [Show HN: Baltic shadow fleet tracker – live AIS, cable proximity alerts](https://github.com/FormerLab/shadow-fleet-tracker-light)
-📍 Hacker News | 🔥 21 points | 🕒 2 hours ago
+### 10. [Do Not Turn Child Protection into Internet Access Control](https://news.dyne.org/child-protection-is-not-access-control/)
+📍 Hacker News | 🔥 365 points | 🕒 3 hours ago
 
 ## 💰 资本动向 (Capital Flow)
 > 36Kr + 华尔街见闻
 
-### 1. [先导基电：拟定增募资不超35.1亿元，用于半导体光学部件研发及产业化项目等](https://36kr.com/newsflashes/3731280465707273)
-📍 36Kr | 🕒 11小时前
+### 1. [华为发布新一代算力芯片昇腾950PR](https://wallstreetcn.com/livenews/3074466)
+📍 WallStreetCN | 🕒 13:59
 
-### 2. [德力股份：股东锦江集团拟减持不超3%公司股份](https://36kr.com/newsflashes/3731273731276806)
-📍 36Kr | 🕒 11小时前
+### 2. [伊朗会重创美国“财富”，央行会QE而黄金却会跌？](https://wallstreetcn.com/charts/41958773)
+📍 WallStreetCN | 🕒 13:31
 
-### 3. [热门中概股美股盘前跌多涨少，小鹏汽车跌超3%](https://36kr.com/newsflashes/3731273217835268)
-📍 36Kr | 🕒 11小时前
+### 3. [何立峰会见跨国公司负责人](https://wallstreetcn.com/livenews/3074460)
+📍 WallStreetCN | 🕒 12:26
 
-### 4. [美股大型科技股盘前多数下跌，Arm涨超3%](https://36kr.com/newsflashes/3731271689126147)
-📍 36Kr | 🕒 11小时前
+### 4. [黄仁勋：如果年薪50万的工程师一年没有烧掉25万美元Token，那一定有问题](https://wallstreetcn.com/charts/41958772)
+📍 WallStreetCN | 🕒 12:22
 
-### 5. [*ST步森：控股股东将变更为延丰数字，股票下周一复牌](https://36kr.com/newsflashes/3731267743268867)
-📍 36Kr | 🕒 11小时前
+### 5. [美国私募信贷“火烧连营”：类“次贷”式包装财技，吸收1万亿美元“美国人养老金”](https://wallstreetcn.com/articles/3768065)
+📍 WallStreetCN | 🕒 11:20
 
-### 6. [汤臣倍健：2025年归母净利润7.82亿元，同比增长19.81%](https://36kr.com/newsflashes/3731263773311233)
-📍 36Kr | 🕒 11小时前
+### 6. [牵动全球市场的关键问题：伊朗危机走向何方？](https://wallstreetcn.com/themes/1008388)
+📍 WallStreetCN | 🕒 
 
-### 7. [上海银行：2025年净利润241.93亿元，同比增长2.69%](https://36kr.com/newsflashes/3731263018074370)
-📍 36Kr | 🕒 11小时前
+### 7. [能源冲击前，美国生产端通胀全面升温](https://wallstreetcn.com/member/articles/3768014)
+📍 WallStreetCN | 🕒 11:19
 
-### 8. [MOVA AtomForm将赴美国硅谷发布首款智能12喷嘴3D打印机](https://36kr.com/newsflashes/3731262495506439)
-📍 36Kr | 🕒 11小时前
+### 8. [以防长称接下来的一周将加大对伊朗打击力度](https://wallstreetcn.com/livenews/3074448)
+📍 WallStreetCN | 🕒 10:58
 
-### 9. [德福科技：拟收购慧儒科技35.15%股权并增资，合计持股51.16%](https://36kr.com/newsflashes/3731257992970504)
-📍 36Kr | 🕒 11小时前
+### 9. [英伟达能一直这么赚钱吗？](https://wallstreetcn.com/charts/41958771)
+📍 WallStreetCN | 🕒 10:41
 
-### 10. [平安银行：2025年归母净利润426.33亿元，同比下降4.20%](https://36kr.com/newsflashes/3731255547150343)
-📍 36Kr | 🕒 11小时前
+### 10. [伊朗向以色列发射导弹数量有明显增加，以军空袭重心转向伊朗中部](https://wallstreetcn.com/livenews/3074441)
+📍 WallStreetCN | 🕒 09:54
 
 ## 📚 学术前沿 (Research)
 > ArXiv AI/ML Papers
@@ -109,37 +109,37 @@
 ## 💎 产品精选 (Product Gems)
 > Product Hunt Today
 
-### 1. [Rork Max](https://www.producthunt.com/posts/rork-max)
-> Best AI for iOS apps. Website that replaces Xcode
-🔥 1470 votes
-
-### 2. [KiloClaw](https://www.producthunt.com/posts/kiloclaw)
+### 1. [KiloClaw](https://www.producthunt.com/posts/kiloclaw)
 > Hosted OpenClaw. No Mac mini required.
-🔥 890 votes
+🔥 894 votes
 
-### 3. [Visual Translate by Vozo](https://www.producthunt.com/posts/visual-translate-by-vozo)
+### 2. [Visual Translate by Vozo](https://www.producthunt.com/posts/visual-translate-by-vozo)
 > Translate text in your videos without recreating visuals
-🔥 746 votes
+🔥 748 votes
 
-### 4. [Chronicle 2.0](https://www.producthunt.com/posts/chronicle-2-0)
+### 3. [Chronicle 2.0](https://www.producthunt.com/posts/chronicle-2-0)
 > AI presentations without the AI slop
 🔥 735 votes
 
-### 5. [Claude Import Memory](https://www.producthunt.com/posts/claude-import-memory)
+### 4. [Claude Import Memory](https://www.producthunt.com/posts/claude-import-memory)
 > Switch from ChatGPT to Claude with import memory feature
 🔥 704 votes
 
-### 6. [Anything API](https://www.producthunt.com/posts/anything-api)
+### 5. [Anything API](https://www.producthunt.com/posts/anything-api)
 > Any website. We deliver the API.
 🔥 673 votes
 
-### 7. [Naoma AI Demo Agent](https://www.producthunt.com/posts/naoma-ai-demo-agent)
-> The video AI demo agent for B2B SaaS for immediate demos
-🔥 666 votes
+### 6. [Stitch 2.0 by Google](https://www.producthunt.com/posts/stitch-2-0-by-google-2)
+> Vibe design beautiful production-ready UI in seconds
+🔥 670 votes
 
-### 8. [Stitch by Google](https://www.producthunt.com/posts/stitch-by-google)
+### 7. [Stitch by Google](https://www.producthunt.com/posts/stitch-by-google)
 > Turn napkin sketches into production-ready UI in seconds.
-🔥 666 votes
+🔥 667 votes
+
+### 8. [Naoma AI Demo Agent](https://www.producthunt.com/posts/naoma-ai-demo-agent)
+> The video AI demo agent for B2B SaaS for immediate demos
+🔥 664 votes
 
 ## 🐦 社交热议 (Social)
 > X (Twitter) - AI/Tech Discussions
@@ -149,20 +149,20 @@
 ## 🗣️ 社区热点 (Community)
 > V2EX 热门
 
-### 1. [1xm.ai 中转站新站开业，新注册立送 10$体验金，欢迎各位技术大佬品鉴](https://www.v2ex.com/t/1199682)
-💬 408 replies
+### 1. [iPhone 是真 TM 难用](https://www.v2ex.com/t/1199995)
+💬 111 replies
 
-### 2. [领$10-稳定 - Claude Code 用户看过来](https://www.v2ex.com/t/1199688)
-💬 158 replies
+### 2. [一个晚上撸出来的<V2EX 用户画像分析>小工具](https://www.v2ex.com/t/1199967)
+💬 78 replies
 
-### 3. [洗碗机真的能解放双手吗？如果是请推荐](https://www.v2ex.com/t/1199692)
-💬 155 replies
+### 3. [[寻中转站合作] CC 逆向最低 0.1 元/刀（需量大），远大于 200K 上下文，深度思考，支持 websearch](https://www.v2ex.com/t/1199977)
+💬 70 replies
 
-### 4. [[转] -王自如想招聘一名全栈前端工程师，要求有多离谱？](https://www.v2ex.com/t/1199687)
-💬 146 replies
+### 4. [Android 是真 TM 难用](https://www.v2ex.com/t/1200054)
+💬 52 replies
 
-### 5. [最近好难啊，一上 30，事情都一块来了](https://www.v2ex.com/t/1199767)
-💬 133 replies
+### 5. [普通人是不是每天定投 100 块钱纳斯达克就可以了？](https://www.v2ex.com/t/1199966)
+💬 50 replies
 
 ## 📕 小红书雷达 (XHS Radar)
 > 手动搜索指令 (点击链接进入搜索页)
