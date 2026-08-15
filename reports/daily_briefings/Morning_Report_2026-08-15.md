@@ -2,7 +2,7 @@
 
 
 **日期:** 2026-08-15
-**生成时间:** 00:01
+**生成时间:** 23:58
 **数据源:** HN, GitHub, 36Kr, WallStreetCN, V2EX, PH, ArXiv, X, XHS
 
 ---
@@ -10,68 +10,68 @@
 ## 🛠️ 技术趋势 (Tech Trends)
 > Hacker News + GitHub Trending
 
-### 1. [cathrynlavery/diagram-design - 29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.](https://github.com/cathrynlavery/diagram-design)
-📍 GitHub | 🔥 17,201 stars | 🕒 Today
+### 1. [Engineers will do anything to avoid learning from history](https://horn.gg/blog/engineers-will-do-anything-to-avoid-learning-from-history/)
+📍 Hacker News | 🔥 118 points | 🕒 1 hour ago
 
-### 2. [cactus-compute/needle - 14MB foundation model for tiny devices; phones, wearables, smart home, and robots.](https://github.com/cactus-compute/needle)
-📍 GitHub | 🔥 5,590 stars | 🕒 Today
+### 2. [Abdominal fat predicts heart disease risk better than BMI](https://www.acc.org/about-acc/press-releases/2026/08/11/14/59/abdominal-fat-predicts-heart-disease-risk-better-than-bmi)
+📍 Hacker News | 🔥 104 points | 🕒 2 hours ago
 
-### 3. [megadose/holehe - holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.](https://github.com/megadose/holehe)
-📍 GitHub | 🔥 12,835 stars | 🕒 Today
+### 3. [Semaglutide linked to lower predicted dementia risk](https://alz-journals.onlinelibrary.wiley.com/doi/10.1002/dad2.70432)
+📍 Hacker News | 🔥 322 points | 🕒 7 hours ago
 
-### 4. [macro-inc/macro - Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.](https://github.com/macro-inc/macro)
-📍 GitHub | 🔥 3,026 stars | 🕒 Today
+### 4. [Bede Liu, a digital signal processing pioneer, has died](https://spectrum.ieee.org/digital-signal-processing)
+📍 Hacker News | 🔥 36 points | 🕒 2 hours ago
 
-### 5. [smicallef/spiderfoot - SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.](https://github.com/smicallef/spiderfoot)
-📍 GitHub | 🔥 20,938 stars | 🕒 Today
+### 5. [Cultivating a state of mind where new ideas are born (2023)](https://www.henrikkarlsson.xyz/p/good-ideas)
+📍 Hacker News | 🔥 60 points | 🕒 3 hours ago
 
-### 6. [citrolabs/ego-lite - The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.](https://github.com/citrolabs/ego-lite)
-📍 GitHub | 🔥 10,351 stars | 🕒 Today
+### 6. [At-home test for infected ticks could improve Lyme Disease diagnosis](https://www.smithsonianmag.com/innovation/the-first-at-home-test-for-infected-ticks-could-improve-lyme-disease-diagnosis-180989235/)
+📍 Hacker News | 🔥 198 points | 🕒 9 hours ago
 
-### 7. [holaboss-ai/holaOS - Open-source All in One AI agent workspace. Run any agent — Claude Code, Codex — across your tools (100+ integrations + MCP), apps, browser, and files, with shared memory. Built-in models or BYOK.](https://github.com/holaboss-ai/holaOS)
-📍 GitHub | 🔥 7,272 stars | 🕒 Today
+### 7. [AI in drug discovery – what it is, where we stand and the path forward](https://www.science.org/content/blog-post/so-how-ai-drug-discovery-doing-really)
+📍 Hacker News | 🔥 70 points | 🕒 4 hours ago
 
-### 8. [github/spec-kit - 💫 Toolkit to help you get started with Spec-Driven Development](https://github.com/github/spec-kit)
-📍 GitHub | 🔥 128,500 stars | 🕒 Today
+### 8. [AI has access to a vastly larger working memory than the human brain](https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians)
+📍 Hacker News | 🔥 376 points | 🕒 5 hours ago
 
-### 9. [lightningpixel/modly - Desktop app to generate 3D models from images or prompt using local AI — runs entirely on your GPU](https://github.com/lightningpixel/modly)
-📍 GitHub | 🔥 5,923 stars | 🕒 Today
+### 9. [RISC-V: They Should Have Known Better](https://dmitry.gr/?r=06.%20Thoughts&proj=12.%20RV)
+📍 Hacker News | 🔥 213 points | 🕒 8 hours ago
 
-### 10. [infiniflow/ragflow - RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs](https://github.com/infiniflow/ragflow)
-📍 GitHub | 🔥 88,377 stars | 🕒 Today
+### 10. [SugarTrack – an offline Android logbook for blood sugar (no account, no cloud)](https://sugartrack-beta.vercel.app/)
+📍 Hacker News | 🔥 8 points | 🕒 1 hour ago
 
 ## 💰 资本动向 (Capital Flow)
 > 36Kr + 华尔街见闻
 
-### 1. [华尔街见闻早餐FM-Radio | 2026年8月15日](https://wallstreetcn.com/articles/3779496)
-📍 WallStreetCN | 🕒 23:34
+### 1. [伊朗称已与阿曼就霍尔木兹海峡通行方案达成协议](https://wallstreetcn.com/livenews/3149999)
+📍 WallStreetCN | 🕒 12:51
 
-### 2. [“AI股神”爆仓拖累，Jane Street7月巨亏150亿，十年来首次单月亏损！](https://wallstreetcn.com/articles/3779493)
-📍 WallStreetCN | 🕒 23:15
+### 2. [河南周口川汇区贾鲁河东岸堤防溃口成功合龙](https://wallstreetcn.com/livenews/3149993)
+📍 WallStreetCN | 🕒 12:32
 
-### 3. [美股指小幅收跌，存储、光通信股集体拉升，闪迪涨超7%，金油齐涨，美债跌](https://wallstreetcn.com/articles/3779437)
-📍 WallStreetCN | 🕒 23:06
+### 3. [最优“AI泡沫交易”：同时做多“傲慢”与“偏见”](https://wallstreetcn.com/articles/3779514)
+📍 WallStreetCN | 🕒 11:58
 
-### 4. [甲骨文一度跌5%，“星际之门”关键AI数据中心配套天然气管道延期](https://wallstreetcn.com/articles/3779489)
-📍 WallStreetCN | 🕒 22:57
+### 4. [工业AI：从比特到原子](https://wallstreetcn.com/charts/41959597)
+📍 WallStreetCN | 🕒 11:16
 
-### 5. [Anthropic Q2营收飙升至逾115亿美元，同比涨超14倍](https://wallstreetcn.com/articles/3779495)
-📍 WallStreetCN | 🕒 22:56
+### 5. [中期选举压力是否还能触发“TACO”？](https://wallstreetcn.com/articles/3779513)
+📍 WallStreetCN | 🕒 11:02
 
-### 6. [英伟达首度披露SpaceX持仓，借道xAI间接持有约210亿美元](https://wallstreetcn.com/articles/3779494)
-📍 WallStreetCN | 🕒 22:48
+### 6. [非沪籍居民及境外人士置换性购房政策微调？上海房地产交易中心热线回应](https://wallstreetcn.com/livenews/3149965)
+📍 WallStreetCN | 🕒 09:35
 
-### 7. [美联储Goolsbee：希望看到更多通胀降温证据，就业与经济增长稳定](https://wallstreetcn.com/articles/3779492)
-📍 WallStreetCN | 🕒 22:41
+### 7. [博通一夜跌6%：AI的下一道坎，是融资成本](https://wallstreetcn.com/articles/3779512)
+📍 WallStreetCN | 🕒 09:31
 
-### 8. [SK集团“天价离婚案”再起波澜，董事长崔泰源就6.43亿美元判决提起上诉](https://wallstreetcn.com/articles/3779491)
-📍 WallStreetCN | 🕒 22:40
+### 8. [a16z史上最大投资！All in Uber创始人，下注工业AI“从比特到原子”](https://wallstreetcn.com/articles/3779510)
+📍 WallStreetCN | 🕒 08:08
 
-### 9. [阿贝尔掌舵半年伯克希尔大举增持谷歌、A类股晋升前五重仓，Q2加码航空和房产股](https://wallstreetcn.com/articles/3779490)
-📍 WallStreetCN | 🕒 22:21
+### 9. [520元/股！宇树科技，未上市先疯抢！场外“暗盘”兴起，谁在豪赌？](https://wallstreetcn.com/articles/3779509)
+📍 WallStreetCN | 🕒 07:26
 
-### 10. [AI融资担忧发酵，博通盘中重挫7%，3700亿潜在风险响警钟](https://wallstreetcn.com/articles/3779486)
-📍 WallStreetCN | 🕒 21:21
+### 10. [美农业部意外下调玉米单产：全球粮食安全进入高风险区？](https://wallstreetcn.com/member/articles/3779447)
+📍 WallStreetCN | 🕒 06:35
 
 ## 📚 学术前沿 (Research)
 > ArXiv AI/ML Papers
@@ -115,31 +115,31 @@
 
 ### 2. [Fuzzy AI](https://www.producthunt.com/posts/fuzzy-ai-2)
 > We warm your prospects before reaching out
-🔥 664 votes
+🔥 663 votes
 
 ### 3. [Unabyss for Claude](https://www.producthunt.com/posts/unabyss-for-claude)
 > Shared memory across all apps and LLMs. In Claude
-🔥 645 votes
+🔥 644 votes
 
 ### 4. [Prelint](https://www.producthunt.com/posts/prelint)
 > Prevent product drift in AI-written code
-🔥 638 votes
+🔥 633 votes
 
-### 5. [Velo 3.0](https://www.producthunt.com/posts/velo-3-0)
-> AI video infrastructure to explain, train, and sell faster.
-🔥 628 votes
-
-### 6. [SKI](https://www.producthunt.com/posts/ski)
+### 5. [SKI](https://www.producthunt.com/posts/ski)
 > Free voice coding for Claude Code, Codex and more
-🔥 623 votes
+🔥 621 votes
 
-### 7. [Prefactor](https://www.producthunt.com/posts/prefactor)
+### 6. [Prefactor](https://www.producthunt.com/posts/prefactor)
 > Evaluate your AI Agents in real-time
-🔥 617 votes
+🔥 614 votes
 
-### 8. [AdAnt AI](https://www.producthunt.com/posts/adant-ai)
+### 7. [AdAnt AI](https://www.producthunt.com/posts/adant-ai)
 > Claude for viral, high-converting social ads
-🔥 610 votes
+🔥 609 votes
+
+### 8. [Hey Noah](https://www.producthunt.com/posts/hey-noah)
+> A proactive AI executive assistant for founders
+🔥 604 votes
 
 ## 🐦 社交热议 (Social)
 > X (Twitter) - AI/Tech Discussions
@@ -149,20 +149,20 @@
 ## 🗣️ 社区热点 (Community)
 > V2EX 热门
 
-### 1. [想起一件招笑的小事](https://www.v2ex.com/t/1234269)
-💬 149 replies
+### 1. [仅以此文，记录 6 年来单纯又愚蠢的自己和成瘾的她](https://www.v2ex.com/t/1234566)
+💬 106 replies
 
-### 2. [local.ai，我来开个帖子接力吧](https://www.v2ex.com/t/1234283)
-💬 141 replies
+### 2. [突然灵光一个点子，想做一款浏览器插件，本来可以立即 Coding，但止住了，各位一起讨论讨论引发的一些想法](https://www.v2ex.com/t/1234535)
+💬 78 replies
 
-### 3. [脑供血不足晕倒](https://www.v2ex.com/t/1234248)
-💬 98 replies
+### 3. [一章有意思的图，真有人找不到这么明显的东西吗？](https://www.v2ex.com/t/1234534)
+💬 36 replies
 
-### 4. [第一次在本站拉黑人](https://www.v2ex.com/t/1234332)
-💬 81 replies
+### 4. [用了十几年的 github 号被封了](https://www.v2ex.com/t/1234561)
+💬 31 replies
 
-### 5. [撸铁并佩戴金戒指的佬们，如何解决戒指被各种哑铃杠铃刮花&搞变形的问题的？](https://www.v2ex.com/t/1234281)
-💬 80 replies
+### 5. [仲裁胜利-记一次不太艰辛的仲裁之路](https://www.v2ex.com/t/1234526)
+💬 29 replies
 
 ## 📕 小红书雷达 (XHS Radar)
 > 手动搜索指令 (点击链接进入搜索页)
