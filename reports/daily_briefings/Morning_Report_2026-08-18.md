@@ -10,136 +10,136 @@
 ## 🛠️ 技术趋势 (Tech Trends)
 > Hacker News + GitHub Trending
 
-### 1. [harry0703/MoneyPrinterTurbo - 利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.](https://github.com/harry0703/MoneyPrinterTurbo)
-📍 GitHub | 🔥 105,969 stars | 🕒 Today
+### 1. [A 3D fruit fly on macOS desktop powered by the real FlyWire connectome](https://github.com/DenisSergeevitch/desktop-fly)
+📍 Hacker News | 🔥 81 points | 🕒 2 hours ago
 
-### 2. [usestrix/strix - Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.](https://github.com/usestrix/strix)
-📍 GitHub | 🔥 54,134 stars | 🕒 Today
+### 2. [Being ambitious and being a dad](https://nicholascharriere.com/blog/being-ambitious-and-being-a-dad/)
+📍 Hacker News | 🔥 191 points | 🕒 3 hours ago
 
-### 3. [nautechsystems/nautilus_trader - Production-grade Rust-native trading engine with deterministic event-driven architecture](https://github.com/nautechsystems/nautilus_trader)
-📍 GitHub | 🔥 25,902 stars | 🕒 Today
+### 3. [The Amazon tax](https://seths.blog/2026/08/the-amazon-tax/)
+📍 Hacker News | 🔥 852 points | 🕒 10 hours ago
 
-### 4. [akitaonrails/ai-memory - Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors](https://github.com/akitaonrails/ai-memory)
-📍 GitHub | 🔥 2,028 stars | 🕒 Today
+### 4. [fx :Tiny, open, native coding agent.](https://fx.sh)
+📍 Hacker News | 🔥 59 points | 🕒 1 hour ago
 
-### 5. [mukul975/Anthropic-Cybersecurity-Skills - 817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0](https://github.com/mukul975/Anthropic-Cybersecurity-Skills)
-📍 GitHub | 🔥 28,406 stars | 🕒 Today
+### 5. [How does IKEA come up with names for its products?](https://www.ikea.com/se/en/customer-service/knowledge/articles/6f564c4d-2ccc-46de-b643-545a3948dc79.html)
+📍 Hacker News | 🔥 203 points | 🕒 5 hours ago
 
-### 6. [AlexsJones/llmfit - Hundreds of models & providers. One command to find what runs on your hardware.](https://github.com/AlexsJones/llmfit)
-📍 GitHub | 🔥 32,245 stars | 🕒 Today
+### 6. [Claude Code Teaching macOS to Natively Print to the HP Laser 1008a](https://cdn.kuber.studio/chat/hp-laser-1008a-driver)
+📍 Hacker News | 🔥 96 points | 🕒 2 hours ago
 
-### 7. [santifer/career-ops - Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)](https://github.com/santifer/career-ops)
-📍 GitHub | 🔥 64,612 stars | 🕒 Today
+### 7. [Turbovec – Google's TurboQuant for vector search in Rust](https://github.com/RyanCodrai/turbovec)
+📍 Hacker News | 🔥 191 points | 🕒 5 hours ago
 
-### 8. [jundot/omlx - LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar](https://github.com/jundot/omlx)
-📍 GitHub | 🔥 18,979 stars | 🕒 Today
+### 8. [Beware Management Consultants](https://about.iceland.co.uk/our-story/the-dark-ages/beware-management-consultants/)
+📍 Hacker News | 🔥 420 points | 🕒 4 hours ago
 
-### 9. [immich-app/immich - High performance self-hosted photo and video management solution.](https://github.com/immich-app/immich)
-📍 GitHub | 🔥 111,142 stars | 🕒 Today
+### 9. [Using the railway network as a flatbed scanner](https://philo.gay/linecam/)
+📍 Hacker News | 🔥 381 points | 🕒 11 hours ago
 
-### 10. [cordiverse/cordis - Meta-Framework of Spatiotemporal Composability](https://github.com/cordiverse/cordis)
-📍 GitHub | 🔥 5,565 stars | 🕒 Today
+### 10. [Cursor launches Origin, GitHub alternative](https://cursor.com/changelog/origin-code-hosting)
+📍 Hacker News | 🔥 440 points | 🕒 11 hours ago
 
 ## 💰 资本动向 (Capital Flow)
 > 36Kr + 华尔街见闻
 
-### 1. [“美股处于历史高位时，特朗普更容易打仗”，高盛交易台警告：警惕地缘风险](https://wallstreetcn.com/articles/3779648)
-📍 WallStreetCN | 🕒 23:56
+### 1. [阿联酋监测到两枚从伊朗发射的导弹，阿官员称阿已暂停与伊朗贸易金融往来](https://wallstreetcn.com/articles/3779734)
+📍 WallStreetCN | 🕒 23:55
 
-### 2. [特朗普：不着急结束伊朗战争，若阿曼阻碍谈判、将“狠狠轰炸”，伊朗警告转向全面进攻](https://wallstreetcn.com/articles/3779635)
-📍 WallStreetCN | 🕒 23:54
+### 2. [重大突破！我国首次实现火箭陆地回收](https://wallstreetcn.com/livenews/3151377)
+📍 WallStreetCN | 🕒 23:49
 
-### 3. [刚刚英伟达核弹级战略曝光！老黄宣布联手奥特曼圈地圈电，狂卷16GW算力霸权](https://wallstreetcn.com/articles/3779646)
-📍 WallStreetCN | 🕒 23:46
+### 3. [华尔街见闻早餐FM-Radio | 2026年8月19日](https://wallstreetcn.com/articles/3779742)
+📍 WallStreetCN | 🕒 23:05
 
-### 4. [30年期美债收益率创2007年以来新高：油价、财政赤字与AI发债共推长端利率上行](https://wallstreetcn.com/articles/3779638)
-📍 WallStreetCN | 🕒 23:15
+### 4. [报道：Anthropic拟赋予CEO Amodei超级投票权](https://wallstreetcn.com/articles/3779745)
+📍 WallStreetCN | 🕒 22:48
 
-### 5. [中东风险推高油价，美股美债齐跌，存储芯片、光通信逆势大涨，黄金涨回4400](https://wallstreetcn.com/articles/3779603)
-📍 WallStreetCN | 🕒 23:06
+### 5. [OpenAI持续暂停前沿模型训练：AI能力进展超预期，安全护栏亟待升级](https://wallstreetcn.com/articles/3779744)
+📍 WallStreetCN | 🕒 22:42
 
-### 6. [华尔街见闻早餐FM-Radio | 2026年8月18日](https://wallstreetcn.com/articles/3779634)
-📍 WallStreetCN | 🕒 23:00
+### 6. [债市风暴持续，美股指三连跌，泛欧股指五连跌，美芯片指数重挫5%，原油三连涨](https://wallstreetcn.com/articles/3779677)
+📍 WallStreetCN | 🕒 22:40
 
-### 7. [8月18日会员早报：特朗普扬言“炸平”阿曼 伊朗对美发“最后通牒”](https://wallstreetcn.com/member/articles/3779639)
-📍 WallStreetCN | 🕒 22:34
+### 7. [美官员：特朗普要求谈判团队暂停与伊朗接触](https://wallstreetcn.com/livenews/3151364)
+📍 WallStreetCN | 🕒 22:38
 
-### 8. [6月份外国持有的美国国债数量下降，日本减持规模居首](https://wallstreetcn.com/articles/3779641)
-📍 WallStreetCN | 🕒 22:23
+### 8. [比特币巨鲸结束抛售，60天增持超27亿美元](https://wallstreetcn.com/articles/3779743)
+📍 WallStreetCN | 🕒 22:31
 
-### 9. [AI资本开支疑虑缓解，美光、闪迪等存储股迎来重估，带动芯片指数重返牛市](https://wallstreetcn.com/articles/3779645)
-📍 WallStreetCN | 🕒 22:18
+### 9. [报道：Anthropic预计将在几周内IPO](https://wallstreetcn.com/livenews/3151357)
+📍 WallStreetCN | 🕒 22:20
 
-### 10. [特朗普称金正恩已回应其“对话”请求](https://wallstreetcn.com/livenews/3150699)
-📍 WallStreetCN | 🕒 21:33
+### 10. [苹果向欧盟监管让步：取消核心技术费，欧洲App Store佣金全面下调](https://wallstreetcn.com/articles/3779740)
+📍 WallStreetCN | 🕒 22:04
 
 ## 📚 学术前沿 (Research)
 > ArXiv AI/ML Papers
 
-### 1. [Decoding the Past: An Uncertainty-Aware Deep Learning Framework for Sex Attribution in Prehistoric Hand Stencils](https://arxiv.org/abs/2608.14539v1)
-> ⚡ Determining the biological sex of the individuals who created Upper Paleolithic ...
-👤 Karel Becerra, Boris Mederos | 📅 2026-08-14
+### 1. [Don't Drop the BATON: Long-Horizon Robot Manipulation via Agentic Subtask Exploration and Transition-aware Memory](https://arxiv.org/abs/2608.16889v1)
+> ⚡ Long-horizon robot manipulation chains many contact-rich skills into one multi-s...
+👤 Bingxin Xu, Yuzhang Shang | 📅 2026-08-17
 
-**详情:** Determining the biological sex of the individuals who created Upper Paleolithic hand stencils remains a challenging problem due to the absence of ground truth, population differences between contemporary and prehistoric groups, and the uncertainty introduced by image degradation. Traditional morphometric methods suffer from high structural overlap across sexes, poor cross-population generalizability, and subjective feature engineering. This study presents an uncertainty-aware deep learning framework for sex attribution in prehistoric hand stencils that explicitly models, propagates, and aggregates uncertainty throughout the analytical pipeline. The methodology combines dual image processing, dual contour extraction, structured silhouette augmentation, model architectural diversity, and ensemble-based decision aggregation. The pipeline generates twelve plausible silhouette realizations per stencil to capture boundary uncertainties, which are processed by two ensembles of ten deep neural networks each (EfficientNet-B3 and MobileViT-S) trained on 14,036 contemporary hand samples. Furthermore, a triangulated validation scheme integrates ensemble predictions with unsupervised 2D latent-space manifold mapping (UMAP + k-NN) and explainable AI spatial attributions (LayerCAM) to ensure anatomical consistency. On contemporary data, ensemble models achieve strong classification performance, with accuracies exceeding 88% in older age groups. When applied to prehistoric stencils, the framework produces both sex predictions and confidence measures of internal agreement, enabling the distinction between morphologically stable and ambiguous cases. Convergence across ensemble predictions, latent-space structure, and interpretability analyses shows that uncertainty can become a measurable component of archaeological inference, enabling robust and reproducible decoding of ancient rock art.
+**详情:** Long-horizon robot manipulation chains many contact-rich skills into one multi-stage task. Vision-language-action (VLA) models increasingly master the individual skills, yet the chain still fails: errors compound beyond the policy's ability to correct, and one subtask silently constrains the next. A promising recipe freezes the VLA and puts an LLM agent in charge: it plans in language, moves in free space with analytic primitives, invokes the VLA only for contact-rich segments, and writes adaptation into language memory. Applied to long horizons, it breaks twice. (1) Competence comes from whole-task exploration at test time, whose cost is multiplicative in stages: if one stage needs T episodes, a K-stage task needs about T^K, and a failure does not reveal which stage caused it. (2) It has no representation of transitions: the VLA primitive carries an exit but no entry condition, so a subtask can succeed in a form its successor cannot use. We present BATON. Against (1), BATON makes the subtask the unit of exploration: each is explored in the cheap short-horizon regime and its solution stored in memory; a long-horizon trajectory is then composed from these solutions rather than discovered whole. Cost becomes additive (T*K) and every failure is attributed to a single stage. Against (2), BATON equips exploration with a transition-aware memory. Within a subtask, a verifier agent governs the invocation transition: the VLA is called only after the wrist view confirms the scene is ready. Across subtasks, a handoff transition restores an entry state disturbed by the predecessor's residue, and a lookahead transition selects the strategy whose outcome the successor can inherit. No parameters are updated. On the long-horizon benchmark RoboMemArena, BATON improves task success by 11.6% and cumulative success by 14.9% over the SoTA.
 
-### 2. [Marionette: Predicting World States, Rendering Geometry, Painting Appearance](https://arxiv.org/abs/2608.14530v1)
-> ⚡ Interactive game world models typically autoregress visual observations directly...
-👤 Zian Meng, Zhen Li | 📅 2026-08-14
+### 2. [Improving the matrix multiplication exponent with modern optimization and AlphaEvolve](https://arxiv.org/abs/2608.16884v1)
+> ⚡ The current best bounds on the matrix multiplication exponent $ω$ are obtained t...
+👤 Emilien Dupont, Marvin Eisenberger | 📅 2026-08-17
 
-**详情:** Interactive game world models typically autoregress visual observations directly in pixel or latent space, forcing structured properties such as pose, geometry, and occlusion to be implicitly maintained by the same generative sequence. Over long horizons, errors in these latent world properties accumulate, making consistency and controllability fragile. We explicitly model the evolving world state, delegate exact geometric computation to a fixed, zero-parameter renderer, and leave the neural model to synthesize appearance. We instantiate this idea as Marionette, a world model for interactive games with articulated characters. First, a two-stage autoregressive dynamics model predicts an explicit and interpretable 276-dimensional 3D world state comprising multi-entity articulated skeletons, metric root trajectories, and rotations. Second, a zero-parameter graphics bridge converts the predicted state into pose-control videos, computing world-space geometry and occlusion in closed form. Third, a control-conditioned video-diffusion observation model synthesizes photorealistic RGB observations from the resulting structured controls. Our experiments establish two properties of Marionette. First, the predicted world state is directly controllable. Forcing a mismatched action stream changes root-aligned joint error by 31% across 48 held-out segments. Second, long-horizon behaviour is determined in the state, and can be repaired there. Left free, the two generated characters drift to 21.2 m apart (recorded sessions stay near 5 m) and a third of frames show ground penetration. Two rules imposed on the explicit state, a terrain collider and a separation cap, cut penetration by 66% and keep the pair engaged, with no change to the observation model. Routing appearance through the predicted state costs no fidelity we can detect, at an FVD of 831 against 799 for recorded pose.
+**详情:** The current best bounds on the matrix multiplication exponent $ω$ are obtained through a refinement of the laser method called combination loss analysis (Duan et al., 2022; Williams et al., 2024; Alman et al., 2025). In this note, we address the optimization problem at the core of this approach and propose several improvements. First, we reformulate the optimization problem allowing us to solve it in a larger setting than was previously possible. Second, we leverage recent advances in machine learning to design a new optimization algorithm for this problem. Finally, we refine the resulting optimization algorithm with AlphaEvolve. Our combined approach yields an upper bound of $ω$ &lt; 2.371177, improving the previous best bound of 2.371339.
 
-### 3. [Handover of In-Context Learning State Across Session Boundaries](https://arxiv.org/abs/2608.14528v1)
-> ⚡ This study investigates the methodological and theoretical properties of session...
-👤 Masahiro Kato, Taka Kato | 📅 2026-08-14
+### 3. [AutoSR: Automatic Symbolic Regression by Searching Research States](https://arxiv.org/abs/2608.16876v1)
+> ⚡ We introduce Automatic Symbolic Regression (AutoSR), a fully automated system th...
+👤 Kejia Zhang, Youran Sun | 📅 2026-08-17
 
-**详情:** This study investigates the methodological and theoretical properties of session handover in applications that use large language models. A task may continue in a new session when the context reaches the model's input limit, when the application restarts, or when another agent is asked to finish the task. The application must then decide which information from the earlier session to pass on. We formulate handover as the transfer of a task-relative in-context learning (ICL) state and distinguish exact recovery of earlier material from preservation of the target distribution. Under an exogeneity condition, predictive equivalence characterizes the coarsest deterministic sufficient handover and gives a fixed-length bit requirement. The analysis isolates the effects of the memory constraint, the writer, and the continuation procedure, and quantifies the cost of writing before the realized downstream query is known. We propose a three-part record that stores decisions and constraints exactly, uses task-justified statistics for repeated evidence, and retains original observations whose effect is not preserved by those statistics. Gaussian linear regression gives an exact finite-dimensional handover and finite-bit perturbation bounds, while nonparametric regression gives upper and lower bounds that relate memory to squared prediction error. These results provide a theory and method for deciding what a handover must retain and how its memory requirement depends on the continuation task.
+**详情:** We introduce Automatic Symbolic Regression (AutoSR), a fully automated system that instantiates Research-Space Symbolic Regression by searching persistent scientific investigations rather than isolated equations. Finite, noisy data often yield numerically competitive expressions that imply very different behavior outside the observed regime, making numerical fit and syntactic complexity insufficient measures of scientific credibility. Existing approaches largely focus on improving expressions, yet the search typically retains little beyond the resulting formula and score, losing the scientific record, such as motivations and probes, that inform what to try next. AutoSR preserves this record in a \textbf{Research State}, coupling each candidate equation with the reasoning, computational evidence, and independent review developed along its branch. Proposer--reviewer agents develop these states under progressive-widening Monte Carlo tree search (PW-MCTS), which allocates computation across competing investigations, while the accumulated research record is ultimately synthesized into a final report that explains the leading relation and the basis for its selection. Across nine selected challenges from two benchmark suites, AutoSR recovers algebraically equivalent relations in every case, including three cp3-bench problems that no published system recovers and six structurally diverse LSR-Transform problems. Overall, AutoSR extends symbolic regression from equation-level search toward automated scientific investigation, allowing scientific knowledge and accumulated evidence to shape both what is explored and how the resulting equation is justified.
 
-### 4. [Participatory Moral AI Is Not Neutral: The Invisible Hand of Developers](https://arxiv.org/abs/2608.14522v1)
-> ⚡ As AI systems make more morally loaded decisions across society, one response ha...
-👤 Taenyun Kim, Edyta Bogucka | 📅 2026-08-14
+### 4. [Towards Computational Provenance: Carrying Causal-State Evidence in Generated Text](https://arxiv.org/abs/2608.16868v1)
+> ⚡ A language model's output does not by itself provide verifiable evidence about t...
+👤 Benjamin Belay | 📅 2026-08-17
 
-**详情:** As AI systems make more morally loaded decisions across society, one response has been moral preference elicitation. In this approach, researchers poll participants on hypothetical dilemmas and use the aggregated votes to train a policy that an AI model then applies at scale. Before any vote is cast, developers make three key choices in the moral AI elicitation pipeline: feature scoping, voter sampling, and question framing. In other words, they decide which features go to a vote, which voters to include, and how to present the question. These choices are often opaque, undocumented, and treated as technical details rather than normative ones. We examine each of these choices within a common empirical study and show that each can shape the preferences produced by moral AI elicitation. Across two phases (N = 809) in three deployment contexts (i.e., AI kidney allocation, AI agents simulating absent workers, and generative AI depictions of the deceased), we examine the three main stages of the moral AI elicitation pipeline. First, morally relevant features shift across contexts. This suggests that feature schemas should not be assumed to transfer across deployment domains. Second, preferences differ by political ideology for roughly one-third of features, with some differences reversing direction. The ideological composition of the voter pool can therefore affect the resulting aggregated preference profile. Third, the wording of the elicitation question can narrow or widen ideological gaps by up to a full scale point. The framing conditions also change how moral foundations are associated with participants' judgments. Taken together, these findings suggest that voting-based alignment cannot deliver fair or transparent AI by aggregation alone; at minimum, each stage of the moral AI elicitation pipeline should be audited and disclosed.
+**详情:** A language model's output does not by itself provide verifiable evidence about the internal computation that produced it. We study computational provenance: whether generated text can carry detectable evidence of which causally relevant internal state occurred. We test a bounded form of this idea in two controlled architectures: a modular feed-forward neural network and a transformer-based model. Both architectures are trained on the same arithmetic task with a mandatory pathway through two discrete intermediate states, allowing different internal paths to produce the same answer. We deliberately switch between these paths, authenticate the state actually used, and let that verified state determine a subtle statistical pattern in the generated text that can later be detected. The feed-forward and transformer systems each passed all 128 matched pairs in both their public and separately sealed protected end-to-end evaluations, with the detector recovering the signal associated with the authenticated internal state. The required causal computation also reproduced across five independently trained feed-forward models and three independently trained transformers. In a separate answer-only transformer experiment, our linear probes did not recover a naturally learned intermediate state. These results provide a controlled proof of concept that information about a verified, causally relevant internal state can be preserved in generated text even when the answer is unchanged.
 
-### 5. [Learning-to-Transition for Large-scale and High-Order MIMO Detection](https://arxiv.org/abs/2608.14511v1)
-> ⚡ High-order multiple-input multiple-output (MIMO) detection requires efficient se...
-👤 Yubo Zhang, Yiyao Liu | 📅 2026-08-14
+### 5. [What Do Compliance Detectors Read? An Audit of Activation Probes and Guard Models](https://arxiv.org/abs/2608.16852v1)
+> ⚡ Regulatory compliance monitoring in deployed language models is increasingly imp...
+👤 Saisab Sadhu, Aadit Sengupta | 📅 2026-08-17
 
-**详情:** High-order multiple-input multiple-output (MIMO) detection requires efficient search over a large discrete symbol space while producing reliable soft information for channel decoding. This paper develops a learning-to-transition (L2T) framework that formulates MIMO detection as a stochastic sequence of complete-vector transitions. At each transition, a channel-coupled Transformer updates both the instance embedding and the sampling policy, while a blockwise autoregressive factorization captures inter-stream dependence with moderate sequential complexity. For hard-output detection, a transition network is applied recursively and trained through a residual-to-BER curriculum, which first learns the MIMO search geometry from the exact residual metric and then aligns the policy with transmitted-bit accuracy. For soft-output reception, the well-trained hard policy is cloned at the parameter level into every layer of an untied soft-input soft-output iterative detection and decoding (IDD) receiver. This tied-to-untied transfer preserves the learned zero-prior search dynamics while enabling layer- and round-specific specialization under decoder feedback. Within each IDD round, decoder priors tilt candidate generation according to Bayes' rule, and likelihood-weighted terminal hypotheses produce posterior and extrinsic log-likelihood ratios for LDPC decoding. A multi-stage training strategy further stabilizes the hard-to-soft transfer by progressively exposing the receiver to synthetic and in-loop decoder-generated priors.
+**详情:** Regulatory compliance monitoring in deployed language models is increasingly implemented as a legal and audit control, checking model outputs against written rules spanning data protection, healthcare, financial regulation, and platform policy. Such monitoring is meaningful only if a detector's verdict depends on the stated rule rather than on surface features of the scenario. We show this condition fails across the current class of compliance detectors, a failure we call rule blindness. Deleting, permuting, or substituting the governing rule leaves detection accuracy unchanged for every guard and activation probe we test, including a policy-conditioned guard that correctly cites the governing clause yet barely changes its verdict when that clause is swapped for its permissive counterpart. A purpose-built benchmark crossing two rules with two scenarios, so that neither alone predicts the label, confirms the failure under a design no prior benchmark rules out, and shows that step by step reasoning, not any fast detector we test, is what escapes it. Auditing at scale requires a retraining-free detector, so we introduce the Internal Compliance Score (ICS): a training-free activation readout calibrated from ten labelled pairs and scored by a single projection. We hold ICS to the same scrutiny as the guards it audits: a pre-registered criterion for beating trivial baselines is not met, and a bag-of-words model matches its pooled generalisation exactly. It remains useful because it is inexpensive, letting us audit four deployed guard models, an 8B zero-shot judge, and thirteen benchmarks, and it raises the mechanically verified pass rate when used to rank candidate responses, though an adaptive white-box attack removes this gain. We release the counterfactual protocol and crossed-rule benchmark so rule blindness can be tested in future probe and guard claims.
 
 ## 💎 产品精选 (Product Gems)
 > Product Hunt Today
 
 ### 1. [OpenSEO](https://www.producthunt.com/posts/openseo)
 > The open source Ahrefs alternative
-🔥 939 votes
+🔥 944 votes
 
 ### 2. [Fuzzy AI](https://www.producthunt.com/posts/fuzzy-ai-2)
 > We warm your prospects before reaching out
-🔥 655 votes
+🔥 652 votes
 
 ### 3. [Prelint](https://www.producthunt.com/posts/prelint)
 > Prevent product drift in AI-written code
-🔥 629 votes
+🔥 628 votes
 
-### 4. [SKI](https://www.producthunt.com/posts/ski)
-> Free voice coding for Claude Code, Codex and more
-🔥 612 votes
+### 4. [AdAnt AI](https://www.producthunt.com/posts/adant-ai)
+> Claude for viral, high-converting social ads
+🔥 607 votes
 
 ### 5. [Prefactor](https://www.producthunt.com/posts/prefactor)
 > Evaluate your AI Agents in real-time
-🔥 610 votes
+🔥 607 votes
 
-### 6. [AdAnt AI](https://www.producthunt.com/posts/adant-ai)
-> Claude for viral, high-converting social ads
-🔥 609 votes
+### 6. [SKI](https://www.producthunt.com/posts/ski)
+> Free voice coding for Claude Code, Codex and more
+🔥 606 votes
 
 ### 7. [Hey Noah](https://www.producthunt.com/posts/hey-noah)
 > A proactive AI executive assistant for founders
-🔥 608 votes
+🔥 605 votes
 
 ### 8. [Wispr Flow Notetaker](https://www.producthunt.com/posts/wispr-flow-notetaker)
 > Meeting notes that get the details right.
-🔥 587 votes
+🔥 583 votes
 
 ## 🐦 社交热议 (Social)
 > X (Twitter) - AI/Tech Discussions
@@ -149,20 +149,20 @@
 ## 🗣️ 社区热点 (Community)
 > V2EX 热门
 
-### 1. [[Bytecat] 欢迎赛博领鸡蛋，注册就送 10 刀，叠加倍率可到 50 刀! 支持企业对接，稳定性价比~](https://www.v2ex.com/t/1234854)
-💬 254 replies
+### 1. [现在女的都怎么了，年纪大的都是这样吗](https://www.v2ex.com/t/1235200)
+💬 159 replies
 
-### 2. [“万 1 免 5”股票 etf 大笑脸低佣开户，抽键盘迈从 Ace 68 V2；鼠标迈从 A7 V3 PRO+。 [8.17 日~8.24 日]](https://www.v2ex.com/t/1234841)
-💬 151 replies
+### 2. [27 岁还没做到税后 2W，是不是发展得有点慢了？](https://www.v2ex.com/t/1235314)
+💬 127 replies
 
-### 3. [回看 41 岁程序员人生的三次“押注”](https://www.v2ex.com/t/1234938)
-💬 151 replies
+### 3. [公司要查看私人手机，是否合法](https://www.v2ex.com/t/1235198)
+💬 97 replies
 
-### 4. [有站友去看《牛来》了吗，太抽象了，想去品鉴一下](https://www.v2ex.com/t/1234867)
-💬 141 replies
+### 4. [碰到这种熊孩子咋办?](https://www.v2ex.com/t/1235180)
+💬 91 replies
 
-### 5. [各位 v 友，什么时候几百块钱都不算钱了？](https://www.v2ex.com/t/1234869)
-💬 125 replies
+### 5. [送永久码~~ 双屏工作多年，我最终还是自己写了一个「调暗屏幕」的工具](https://www.v2ex.com/t/1235163)
+💬 90 replies
 
 ## 📕 小红书雷达 (XHS Radar)
 > 手动搜索指令 (点击链接进入搜索页)
@@ -194,11 +194,11 @@
 ### 2. [Proxmox officially supports Arm, with some caveats](https://www.jeffgeerling.com/blog/2026/proxmox-ve-arm-official/)
 📍 jeffgeerling.com | 📅 Wed, 05 Aug 2026
 
-### 3. [AI text watermarking is not a big deal](https://seangoedecke.com/ai-text-watermarking-is-not-a-big-deal/)
-📍 seangoedecke.com | 📅 Sun, 16 Aug 2026
+### 3. [Help peer](https://seangoedecke.com/help-peer/)
+📍 seangoedecke.com | 📅 Tue, 18 Aug 2026
 
-### 4. [No, local models will not win](https://seangoedecke.com/local-models-will-not-win/)
-📍 seangoedecke.com | 📅 Tue, 11 Aug 2026
+### 4. [AI text watermarking is not a big deal](https://seangoedecke.com/ai-text-watermarking-is-not-a-big-deal/)
+📍 seangoedecke.com | 📅 Sun, 16 Aug 2026
 
 ### 5. [Who’s Tracking You? Use This New Service to Find Out](https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/)
 📍 krebsonsecurity.com | 📅 Fri, 14 Aug 2026
