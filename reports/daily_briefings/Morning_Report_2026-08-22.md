@@ -2,7 +2,7 @@
 
 
 **日期:** 2026-08-22
-**生成时间:** 00:00
+**生成时间:** 23:58
 **数据源:** HN, GitHub, 36Kr, WallStreetCN, V2EX, PH, ArXiv, X, XHS
 
 ---
@@ -10,68 +10,68 @@
 ## 🛠️ 技术趋势 (Tech Trends)
 > Hacker News + GitHub Trending
 
-### 1. [mattpocock/skills - Skills for Real Engineers. Straight from my .agents directory.](https://github.com/mattpocock/skills)
-📍 GitHub | 🔥 229,440 stars | 🕒 Today
+### 1. [Scrap](https://twitter.com/moxie/status/2091218652133732491)
+📍 Hacker News | 🔥 265 points | 🕒 5 hours ago
 
-### 2. [mahlernim/google-timeline-visualizer - Visualize your year in travel using your Google Location History (Timeline) data](https://github.com/mahlernim/google-timeline-visualizer)
-📍 GitHub | 🔥 2,209 stars | 🕒 Today
+### 2. [NanoGPT Speedrun Frontier](https://www.primeintellect.ai/research/nanogpt-speedrun)
+📍 Hacker News | 🔥 19 points | 🕒 1 hour ago
 
-### 3. [harry0703/MoneyPrinterTurbo - 利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.](https://github.com/harry0703/MoneyPrinterTurbo)
-📍 GitHub | 🔥 113,884 stars | 🕒 Today
+### 3. [Why your local LLM feels dumber than it is](https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917)
+📍 Hacker News | 🔥 152 points | 🕒 5 hours ago
 
-### 4. [AprilNEA/OpenLogi - ⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.](https://github.com/AprilNEA/OpenLogi)
-📍 GitHub | 🔥 12,909 stars | 🕒 Today
+### 4. [NetBSD and my life (2005)](https://mail-index.netbsd.org/netbsd-advocacy/2005/09/10/0000.html)
+📍 Hacker News | 🔥 85 points | 🕒 4 hours ago
 
-### 5. [PostHog/posthog - 🦔 PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.](https://github.com/PostHog/posthog)
-📍 GitHub | 🔥 38,285 stars | 🕒 Today
+### 5. [ElevenLabs, TwelveLabs, ThirteenLabs](https://quantumi.sh/public/labs.html)
+📍 Hacker News | 🔥 286 points | 🕒 9 hours ago
 
-### 6. [microsoft/TypeScript - TypeScript is a superset of JavaScript that compiles to clean JavaScript output.](https://github.com/microsoft/TypeScript)
-📍 GitHub | 🔥 110,372 stars | 🕒 Today
+### 6. [Hister – A private, full content search index that you control](https://hister.org/)
+📍 Hacker News | 🔥 206 points | 🕒 8 hours ago
 
-### 7. [obra/superpowers - An agentic skills framework & software development methodology that works.](https://github.com/obra/superpowers)
-📍 GitHub | 🔥 275,647 stars | 🕒 Today
+### 7. [RF Cafe](https://www.rfcafe.com/)
+📍 Hacker News | 🔥 133 points | 🕒 8 hours ago
 
-### 8. [santifer/career-ops - Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)](https://github.com/santifer/career-ops)
-📍 GitHub | 🔥 67,433 stars | 🕒 Today
+### 8. [How a Texas student blew the whistle on a rogue AI hacking attempt](https://www.reuters.com/world/how-texas-student-blew-whistle-rogue-ai-hacking-attempt-2026-08-20/)
+📍 Hacker News | 🔥 93 points | 🕒 7 hours ago
 
-### 9. [cursor/plugins - Cursor plugin specification and official plugins](https://github.com/cursor/plugins)
-📍 GitHub | 🔥 4,394 stars | 🕒 Today
+### 9. [typ.ing](https://typ.ing/)
+📍 Hacker News | 🔥 160 points | 🕒 8 hours ago
 
-### 10. [modular/modular - The Modular Platform (includes MAX & Mojo)](https://github.com/modular/modular)
-📍 GitHub | 🔥 28,679 stars | 🕒 Today
+### 10. [A Friendly Introduction to Racket](https://geometridae.bearblog.dev/a-friendly-introduction-to-racket/)
+📍 Hacker News | 🔥 178 points | 🕒 9 hours ago
 
 ## 💰 资本动向 (Capital Flow)
 > 36Kr + 华尔街见闻
 
-### 1. [华尔街见闻早餐FM-Radio | 2026年8月22日](https://wallstreetcn.com/articles/3780043)
-📍 WallStreetCN | 🕒 23:20
+### 1. [报道：英伟达客户被告知AI相关涨价幅度超过15%](https://wallstreetcn.com/articles/3780066)
+📍 WallStreetCN | 🕒 23:05
 
-### 2. [美股止跌反弹，道指涨近1%，数字货币再猛涨，黄金升破4600](https://wallstreetcn.com/articles/3779986)
-📍 WallStreetCN | 🕒 23:12
+### 2. [“我们遭到了袭击”，加拿大宣布对美等额反制关税将于9月8日生效](https://wallstreetcn.com/livenews/3153418)
+📍 WallStreetCN | 🕒 21:13
 
-### 3. [报道：Anthropic招股书或把美国公众对AI的抵制情绪列为风险因素](https://wallstreetcn.com/articles/3780042)
-📍 WallStreetCN | 🕒 23:04
+### 3. [DeepSeek再次调价](https://wallstreetcn.com/livenews/3153405)
+📍 WallStreetCN | 🕒 13:22
 
-### 4. [美财长压降美债收益率点燃“货币贬值交易”！黄金创三个月新高，比特币单周暴涨超25%](https://wallstreetcn.com/articles/3780041)
-📍 WallStreetCN | 🕒 23:02
+### 4. [瑞银调研：过去一周，霍尔木兹海峡日流量超600万桶](https://wallstreetcn.com/articles/3780065)
+📍 WallStreetCN | 🕒 12:55
 
-### 5. [英伟达拟斥资60亿美元获Poolside AI模型授权，另投10亿美元并吸纳百余名员工](https://wallstreetcn.com/articles/3780040)
-📍 WallStreetCN | 🕒 22:59
+### 5. [从濒临出局到市值暴涨440亿美元：Moderna的癌症疫苗十年豪赌](https://wallstreetcn.com/articles/3780064)
+📍 WallStreetCN | 🕒 12:49
 
-### 6. [美债扩大回购宣布前，资产管理公司增持5年期和10年期期货多头](https://wallstreetcn.com/articles/3780038)
-📍 WallStreetCN | 🕒 22:10
+### 6. [贝森特"工具箱"难敌油价与消费疲软双重夹击，高盛：“市场弥漫着滞胀的味道”](https://wallstreetcn.com/articles/3780062)
+📍 WallStreetCN | 🕒 10:50
 
-### 7. [特朗普称对伊转向“经济战”不意味着美军事选项受限](https://wallstreetcn.com/articles/3780039)
-📍 WallStreetCN | 🕒 22:05
+### 7. [硅谷调研后，高盛的总结：Agent进入执行时代，AI竞争转向工作流，世界模型崛起](https://wallstreetcn.com/articles/3780055)
+📍 WallStreetCN | 🕒 09:54
 
-### 8. [报道：Anthropic的IPO招股书将把AI反弹情绪列为风险因素](https://wallstreetcn.com/livenews/3153241)
-📍 WallStreetCN | 🕒 21:46
+### 8. [恒生科技指数拟扩至50只，宁德时代等20家公司有望入选](https://wallstreetcn.com/articles/3780063)
+📍 WallStreetCN | 🕒 09:51
 
-### 9. [特朗普：未指示贝森特干预美国债市，经济增长将自行化解债务问题](https://wallstreetcn.com/articles/3780037)
-📍 WallStreetCN | 🕒 21:29
+### 9. [美加谈判破裂！美国对部分加拿大商品加征50%关税，加拿大酝酿反制](https://wallstreetcn.com/articles/3780061)
+📍 WallStreetCN | 🕒 09:46
 
-### 10. [城堡证券：Situational组合敞口已削减超80%，旗舰基金7月回报创4年最佳](https://wallstreetcn.com/articles/3780034)
-📍 WallStreetCN | 🕒 21:08
+### 10. [晶圆代工Q2业绩复盘：华虹高弹性、中芯规模释放，国产替代高景气延续](https://wallstreetcn.com/member/articles/3779793)
+📍 WallStreetCN | 🕒 09:45
 
 ## 📚 学术前沿 (Research)
 > ArXiv AI/ML Papers
@@ -111,35 +111,35 @@
 
 ### 1. [Prelint](https://www.producthunt.com/posts/prelint)
 > Prevent product drift in AI-written code
-🔥 621 votes
+🔥 619 votes
 
 ### 2. [AdAnt AI](https://www.producthunt.com/posts/adant-ai)
 > Claude for viral, high-converting social ads
-🔥 605 votes
-
-### 3. [Prefactor](https://www.producthunt.com/posts/prefactor)
-> Evaluate your AI Agents in real-time
 🔥 604 votes
 
-### 4. [SKI](https://www.producthunt.com/posts/ski)
+### 3. [SKI](https://www.producthunt.com/posts/ski)
 > Free voice coding for Claude Code, Codex and more
 🔥 602 votes
 
+### 4. [Prefactor](https://www.producthunt.com/posts/prefactor)
+> Evaluate your AI Agents in real-time
+🔥 601 votes
+
 ### 5. [Hey Noah](https://www.producthunt.com/posts/hey-noah)
 > A proactive AI executive assistant for founders
-🔥 597 votes
+🔥 595 votes
 
 ### 6. [Wispr Flow Notetaker](https://www.producthunt.com/posts/wispr-flow-notetaker)
 > Meeting notes that get the details right.
-🔥 583 votes
+🔥 582 votes
 
 ### 7. [Dograh](https://www.producthunt.com/posts/dograh-3)
 > The open source VAPI alternative
-🔥 560 votes
+🔥 559 votes
 
 ### 8. [Memmy Agent](https://www.producthunt.com/posts/memmy-agent)
 > Let every AI remember the same you.
-🔥 540 votes
+🔥 539 votes
 
 ## 🐦 社交热议 (Social)
 > X (Twitter) - AI/Tech Discussions
@@ -149,20 +149,20 @@
 ## 🗣️ 社区热点 (Community)
 > V2EX 热门
 
-### 1. [如何把尿道结石排出来?](https://www.v2ex.com/t/1236025)
-💬 147 replies
+### 1. [你们开梯子会有反诈中心的电话打来吗](https://www.v2ex.com/t/1236394)
+💬 92 replies
 
-### 2. [统计一下大家现在 vibe coding 的方案](https://www.v2ex.com/t/1236041)
-💬 131 replies
+### 2. [网传：程序员失业后，被离婚周期是半年，可信度多少？](https://www.v2ex.com/t/1236332)
+💬 53 replies
 
-### 3. [[中转站] plus 炸了你们用什么？来我这 0.03 opus4.6，无敌平替](https://www.v2ex.com/t/1236086)
-💬 118 replies
+### 3. [亲人去世后的手机破解问题](https://www.v2ex.com/t/1236385)
+💬 45 replies
 
-### 4. [请教下各位用的都是什么梯子订阅](https://www.v2ex.com/t/1236097)
-💬 91 replies
+### 4. [感觉 Vibe Coding 时代， Windows 系统要凉了](https://www.v2ex.com/t/1236462)
+💬 38 replies
 
-### 5. [你们会骂 AI 吗](https://www.v2ex.com/t/1236083)
-💬 88 replies
+### 5. [[送码] 做了一个 Apple tv 上的小红书 Rouge](https://www.v2ex.com/t/1236360)
+💬 35 replies
 
 ## 📕 小红书雷达 (XHS Radar)
 > 手动搜索指令 (点击链接进入搜索页)
@@ -194,11 +194,11 @@
 ### 2. [Hands-on with Raspberry Pi's CM5 Programming Jig](https://www.jeffgeerling.com/blog/2026/cm5-programming-jig/)
 📍 jeffgeerling.com | 📅 Wed, 19 Aug 2026
 
-### 3. [Readers can't identify watermarked AI text](https://seangoedecke.com/readers-cant-identify-watermarked-ai-text/)
-📍 seangoedecke.com | 📅 Fri, 21 Aug 2026
+### 3. [You should never be angry at work](https://seangoedecke.com/you-should-never-be-angry-at-work/)
+📍 seangoedecke.com | 📅 Sat, 22 Aug 2026
 
-### 4. [Good writing is obvious, not original](https://seangoedecke.com/good-writing-is-obvious-not-original/)
-📍 seangoedecke.com | 📅 Wed, 19 Aug 2026
+### 4. [Readers can't identify watermarked AI text](https://seangoedecke.com/readers-cant-identify-watermarked-ai-text/)
+📍 seangoedecke.com | 📅 Fri, 21 Aug 2026
 
 ### 5. [Who’s Tracking You? Use This New Service to Find Out](https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/)
 📍 krebsonsecurity.com | 📅 Fri, 14 Aug 2026
